@@ -5,10 +5,13 @@ import Jumbotron from './Components/Jumbotron/Jumbotron'
 import Popular from './Components/Popular/Popular'
 
 function App() {
+  const content = [1,2,4]
   return (
     <>
     <Jumbotron/>
-    <Popular/>
+    <Popular {...{content:content,title:'Starships'}}/>
+    <Popular {...{content:content,title:'Planets'}}/>
+    <Popular {...{content:content,title:'Characters'}}/>
     </>
   );
 }
