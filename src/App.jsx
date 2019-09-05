@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './Components/Jumbotron/Jumbotron'
-import PopularStarships from './Components/Popular/PopularStarships'
+import PopularStarships from './Components/PopularStarships/PopularStarships'
 
 function App() {
   const content = [1,2,4,5,6,5]
