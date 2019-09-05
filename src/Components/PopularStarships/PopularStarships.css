@@ -1,7 +1,7 @@
 .card-container {
   display: grid;
   grid-template-columns: auto auto auto;
-    width:75%;
+    width:90%;
   margin:auto
 }
 .popular-section-header{

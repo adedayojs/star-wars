@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './Components/Jumbotron/Jumbotron'
 import PopularStarships from './Components/PopularStarships/PopularStarships'
+import PopularPlanets from './Components/PopularPlanets/PopularPlanets'
 
 function App() {
   const content = [1,2,4,5,6,5]
@@ -13,6 +14,7 @@ function App() {
     <>
     <Jumbotron/>
     <PopularStarships {...{content:content,title:'Starships',images:starships}}/>
+    <PopularPlanets {...{content:content,title:'Planets',images:planets}}/>
     {/* <Popular {...{content:content,title:'Planets', images:planets}}/> */}
     {/* <Popular {...{content:content,title:'Characters',images:characters}}/> */}
     </>
